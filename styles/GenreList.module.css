@@ -1,0 +1,63 @@
+.genreList {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 36px;
+}
+  
+.genreListBackToAll {
+    color: #666;
+    cursor: pointer;
+}
+  
+.genreButton {
+    border-radius: 60px;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    min-height: 48px;
+    border-style: solid;
+    will-change: border-color, box-shadow;
+    box-shadow: 0 0 0 0 #333;
+    background: white;
+    padding: 10px 16px;
+    transition: padding-right 0.1s ease-in-out 0s, background 0.1s ease-in 0s, border-color 0.1s ease-in 0s, box-shadow 0.15s ease-in 0s;
+    border-color: #E7E7E9;
+    border-width: thin;
+}
+  
+.genreButtonSelected {
+    border-radius: 60px;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    min-height: 48px;
+    border-style: none;
+    background: #000;
+    color: #fff;
+    padding: 10px 16px;
+}
+  
+.genreButton:hover {
+    border-color: #cccccc;
+}
+  
+.genreButton:active {
+    background-color: #f8f8f8;
+    transform: scale(1.02);
+}

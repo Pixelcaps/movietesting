@@ -1,0 +1,35 @@
+.review {
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.reviewAuthorAvatar {
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.reviewAuthorDetails {
+    display: flex;
+    flex-direction: row;
+}
+
+.reviewAuthorNames {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.reviewAuthorName {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.reviewAuthorUserName {
+    font-size: 14px;
+    color:#666;
+}
+
+.reviewContent {
+    margin-top: 24px;
+}

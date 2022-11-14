@@ -1,0 +1,20 @@
+.creditsGrid {
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: repeat(4, minmax(0px, 1fr));
+}
+
+.creditName {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.creditCharacter {
+    color: #666;
+    font-size: 16px;
+}
+
+.creditJob {
+    color: #666;
+    font-size: 16px;
+}
