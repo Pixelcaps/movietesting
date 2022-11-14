@@ -1,0 +1,36 @@
+.movieList {
+    display: grid;
+    border-top: 1px solid black;
+}
+  
+.movieSummaryPoster {
+    grid-column-start: 1;
+    border: 1px solid black;
+    border-top: 0;
+    border-right: 0;
+}
+  
+.movieSummary {
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    row-gap: 8px;
+    border: 1px solid black;
+    border-top: 0;
+}
+  
+.movieSummaryTitle {
+    font-size: 36px;
+    font-weight: bold;
+}
+  
+.movieSummaryTitle:hover {
+    text-decoration: underline;
+}
+  
+.movieSummaryVotes {
+    font-size: 14px;
+    font-weight: 150;
+    color: #666;
+}
